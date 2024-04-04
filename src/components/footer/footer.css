@@ -1,0 +1,13 @@
+.footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author {
+    font-weight: bold;
+}

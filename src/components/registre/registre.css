@@ -1,0 +1,77 @@
+.one {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://media.giphy.com/media/NxLWZYEM4l5ug/giphy.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+.registre {
+    max-width: 40rem;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.registre h2 {
+    text-align: center;
+    color: white;
+}
+
+.registre label {
+    display: block;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.registre .input-text,
+.registre .select {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.registre .submit-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #7F0909;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.registre .submit-button:hover {
+    background-color: #2A623D;
+}
+
+.registre .submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+@media only screen and (max-width: 768px) {
+    .one {
+        width: auto;
+    }
+
+    .registre {
+        max-width: 100%;
+        border-radius: 0;
+    }
+
+    .registre .input-text,
+    .registre .select {
+        padding: 0.7rem;
+    }
+
+    .registre .submit-button {
+        padding: 0.8rem; 
+    }
+}

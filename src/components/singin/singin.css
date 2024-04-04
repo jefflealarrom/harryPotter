@@ -1,0 +1,82 @@
+.fondo {
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://64.media.tumblr.com/3dc29bdafe255bfd041694604cd49387/4d010885dd2cf480-8e/s540x810/b6bcc53d19fb4f2eb319e31f62293fadafe7fafa.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: url(https://64.media.tumblr.com/ae8a231c89be099826796cb0d4d0291e/4489e467f7726f3f-c0/s540x810/6e0a3287bf799a46e9c37546e1359886f858ecab.gif); */
+
+}
+
+
+.login-titulo{
+ color: whitesmoke;
+ font-weight: lighter;
+}
+
+.login-contenedor {
+    width: 35rem;
+    height: 20rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2rem;
+
+}
+
+.formulario-grupo {
+    padding: 0.5rem;
+}
+
+
+.formulario-input {
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: black;
+    color: coral;
+    border: none;
+
+}
+
+.formulario-boton,
+.small {
+    width: 70%;
+    padding: 10px;
+    background-color: coral;
+    color: black;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.formulario-boton:hover {
+    color: white;
+    background-image: linear-gradient(to right,
+            #ae0001,
+            #222f5b,
+            #ecb939,
+            #2a623d);
+
+}
+
+
+.formulario-error {
+    color:white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-contenedor {
+        width: 80%;
+    }
+    
+   
+}

@@ -1,0 +1,38 @@
+.sec-log {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/originals/fe/4e/13/fe4e13b0798e101267fdfda43af1bc65.gif');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.logout {
+    padding: 1rem 10rem; 
+    font-size: 2rem;
+    border: none; 
+    background-color: #ffffff; 
+    color: #333333; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 1rem; 
+}
+
+.logout:hover {
+    background-color: #333333; 
+    color: #ffffff; 
+}
+
+@media only screen and (max-width: 768px) {
+    .sec-log {
+        width: auto; 
+    }
+
+    .logout {
+        padding: 0.5rem 2rem; 
+        font-size: 1rem; 
+        border-radius: 0.5rem;
+    }
+}
