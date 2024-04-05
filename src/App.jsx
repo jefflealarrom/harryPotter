@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Singin />} />
+        <Route path="/harryPotter" element={<Singin />} />
         <Route path="/in" element={<Perso />} />
         <Route path="/out" element={<Logout />} />
         <Route path="/detail/:id" element={<Detail />} />
